@@ -63,6 +63,18 @@ header {
   font-family: "Tangerine", cursive;
   font-size: 72px;
   color: #ecdbc9;
+  margin: 0;
+  padding-top: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
 }
 
 header nav ul li {
@@ -73,6 +85,10 @@ header nav ul li a {
   color: #ecdbc9;
   text-decoration: none;
   padding: 0 20px 0 0;
+}
+
+header nav ul li:last-child {
+  margin-right: 0;
 }
 
 header nav ul li a:hover {
@@ -118,3 +134,8 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+/* for navigation links hover in desktop
+header nav ul li a:hover {
+  color: #bdbdbd;
+  text-decoration: none;
+} */
