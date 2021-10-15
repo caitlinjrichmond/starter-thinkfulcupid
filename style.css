@@ -32,7 +32,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -119,6 +119,21 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+  /* margin-top: 20px; */
+}
+
+.wrapper {
+  padding-left: 0;
+  list-style: none;
+}
+
+.form-row {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.form-row > label {
+  flex: 1;
 }
 
 /* -------  Footer ------- */

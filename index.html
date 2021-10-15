@@ -35,6 +35,32 @@
       <section id="join">
         <img src="images/love.png" alt="ThinkfulCupid - love" />
         <!-- Add join form here -->
+        <form>
+          <ul class="wrapper">
+            <li class="form-row">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder:"email@example.com" required />
+            </li>
+            <li class="form-row">
+              <label for="password">Create a Password</label>
+              <input id="password" type="password" name="password" minlength="8" required />
+            </li>
+            <li class="form-row">
+              <label for="username">Username</label>
+              <input id="username" type="text" name="username" maxlength="10" required />
+            </li>  
+            <li class="form-row">
+              <label for="gender">I Am A...</label>
+              <select name="gender" id="gender" size="1">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="other">Other</option>
+              </select>
+            </li>
+          <div>
+            <button type="submit">Join</button>
+          </div>   
+        </form>
       </section>
 
       <!-- About -->
