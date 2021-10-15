@@ -37,6 +37,7 @@ section.alternate-background {
 }
 
 main img {
+  display: flex;
   width: 100%;
   margin: 20px 0px;
 }
@@ -53,7 +54,7 @@ main img {
   margin: 10px;
 }
 
-.item-double {
+img.item-double {
   flex: 2;
 }
 
@@ -97,10 +98,6 @@ header nav ul li:last-child {
   margin-right: 0;
 }
 
-header nav ul li a:hover {
-  color: #bdbdbd;
-  text-decoration: none;
-}
 
 /* -------  Join Form ------- */
 form {
@@ -155,8 +152,26 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-/* for navigation links hover in desktop
-header nav ul li a:hover {
-  color: #bdbdbd;
-  text-decoration: none;
-} */
+
+@media all and (min-width: 480px) {
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .logo {
+    margin: 14px 0;
+    padding-top: 0;
+  }
+
+  header nav {
+    margin-top: 30px;
+  }
+  
+  header nav ul li a:hover {
+    color: #bdbdbd;
+    text-decoration: none;
+  } 
+}
