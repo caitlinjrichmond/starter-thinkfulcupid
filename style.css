@@ -5,6 +5,11 @@ body {
   color: #6b1a22;
 }
 
+h1 {
+  font-size: 34px;
+  text-align: center;
+}
+
 h2 {
   font-size: 26px;
   font-weight: 400;
@@ -33,6 +38,7 @@ section.alternate-background {
 
 main img {
   width: 100%;
+  margin: 10px;
 }
 
 /* ---  Groups & Items --- */
