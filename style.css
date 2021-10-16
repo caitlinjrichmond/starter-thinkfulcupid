@@ -38,7 +38,7 @@ section.alternate-background {
 
 main img {
   display: flex;
-  width: 100%;
+  width: 100px;
   margin: 20px 0px;
 }
 
@@ -174,4 +174,16 @@ footer p {
     color: #bdbdbd;
     text-decoration: none;
   } 
+ 
+  .group {
+    display: flex;
+    flex-direction: row; 
+  }
+
+  .match-join {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+
 }
