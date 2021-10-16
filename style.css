@@ -178,11 +178,27 @@ footer p {
   .group {
     display: flex;
     flex-direction: row; 
+    flex-wrap: wrap;
   }
 
   .match-join {
     display: flex;
     flex-direction: column;
+    align-self: center;
+  }
+
+  .group-title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-items {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-paragraph {
+    display: flex;
     align-self: center;
   }
 
