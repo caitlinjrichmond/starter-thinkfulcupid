@@ -220,8 +220,20 @@ footer p {
     flex-wrap: wrap;
     flex: 2;
     align-self: center;
-    /* width: 900px; */
   }
 
+  .blog-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 
+  .blog-post {
+    width: 600px;
+  }
+
+  .blog-pic {
+    width: 100%;
+  }
+  
 }
