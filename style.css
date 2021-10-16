@@ -208,6 +208,11 @@ footer p {
     align-self: center;
   }
 
+  .about-pictures {
+    display: flex;
+    width: 50%;
+  }
+
   .download-group {
     display: flex;
     flex-direction: row;
