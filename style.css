@@ -38,7 +38,7 @@ section.alternate-background {
 
 main img {
   display: flex;
-  width: 100px;
+  width: 100%;
   margin: 20px 0px;
 }
 
@@ -155,6 +155,12 @@ footer p {
 
 @media all and (min-width: 480px) {
   
+  main img {
+    display: flex;
+    width: 100px;
+    margin: 20px 0px;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -201,5 +207,21 @@ footer p {
     display: flex;
     align-self: center;
   }
+
+  .download-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .download-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 2;
+    align-self: center;
+    /* width: 900px; */
+  }
+
 
 }
