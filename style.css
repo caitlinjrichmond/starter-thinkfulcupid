@@ -247,3 +247,21 @@ footer p {
   }
   
 }
+
+@media all and (max-width: 610px) { 
+  .logo {
+    font-size: 39px;
+  }
+  .blog-post {
+    width: auto;
+  }
+  nav {
+    margin-top: 15px !important;
+  }
+}
+
+@media all and (max-width: 477px) { 
+  .logo {
+    font-size: 72px;
+  }
+}
